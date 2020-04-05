@@ -1,7 +1,7 @@
 {
   "name": "react-collapse-simple",
   "version": "1.0.0",
-  "description": "Simple and minimal library for collapsing and expanding content with sliding animation",
+  "description": "Simple library for collapsing and expanding content with sliding animation",
   "author": "lassegit",
   "license": "MIT",
   "repository": "lassegit/react-collapse-simple",

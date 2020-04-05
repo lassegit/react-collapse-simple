@@ -1,6 +1,6 @@
 # react-collapse-simple
 
-> Simple and minimal library for collapsing and expanding content with sliding animation
+> Simple library for collapsing and expanding content with sliding animation
 
 [![NPM](https://img.shields.io/npm/v/react-collapse-simple.svg)](https://www.npmjs.com/package/react-collapse-simple) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -55,3 +55,5 @@ function Example() {
 ```
 
 Alternatively you can also just copy/paste the component and keep it in your own project. The source file is in `src/index.tsx`.
+
+Component also exposes 2 classes. One for the outer div which contains the animation: `react-collapse-simple-wrapper` and for the inner on which the height is measured: `react-collapse-simple-inner` (you might want to make this width: 100%;);
