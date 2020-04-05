@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-collapse-simple/static/css/main.b693b373.chunk.css",
+    "main.js": "/react-collapse-simple/static/js/main.15253f11.chunk.js",
+    "main.js.map": "/react-collapse-simple/static/js/main.15253f11.chunk.js.map",
+    "runtime-main.js": "/react-collapse-simple/static/js/runtime-main.738af945.js",
+    "runtime-main.js.map": "/react-collapse-simple/static/js/runtime-main.738af945.js.map",
+    "static/js/2.5d20614e.chunk.js": "/react-collapse-simple/static/js/2.5d20614e.chunk.js",
+    "static/js/2.5d20614e.chunk.js.map": "/react-collapse-simple/static/js/2.5d20614e.chunk.js.map",
+    "index.html": "/react-collapse-simple/index.html",
+    "precache-manifest.329d1397a397e5033391b3c4437557d7.js": "/react-collapse-simple/precache-manifest.329d1397a397e5033391b3c4437557d7.js",
+    "service-worker.js": "/react-collapse-simple/service-worker.js",
+    "static/css/main.b693b373.chunk.css.map": "/react-collapse-simple/static/css/main.b693b373.chunk.css.map",
+    "static/js/2.5d20614e.chunk.js.LICENSE.txt": "/react-collapse-simple/static/js/2.5d20614e.chunk.js.LICENSE.txt",
+    "static/js/main.15253f11.chunk.js.LICENSE.txt": "/react-collapse-simple/static/js/main.15253f11.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.738af945.js",
+    "static/js/2.5d20614e.chunk.js",
+    "static/css/main.b693b373.chunk.css",
+    "static/js/main.15253f11.chunk.js"
+  ]
+}
