@@ -9,7 +9,6 @@ const App = () => {
   return (
     <div>
       <h1>This is an example of using the collapse component</h1>
-
       <button type="button" onClick={() => setIsOpen(!isOpen)}>
         Toogle (isOpen: {String(isOpen)})
       </button>

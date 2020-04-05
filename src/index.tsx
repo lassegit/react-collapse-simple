@@ -1,6 +1,5 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-// import styles from './styles.module.css';
 
 interface Props {
   transition?: string;
@@ -12,8 +11,8 @@ export const ReactCollapseSimple = ({ transition, children, isOpen }: Props) => 
   const ref = React.useRef<HTMLInputElement>(null);
   const [maxHeight, setMaxHeight] = React.useState('0');
   const style = {
-    overflow: 'hidden',
     transition: transition,
+    overflow: 'hidden',
     // For the collapse animation to work we need a fixed max-height,
     // therefore we simply pass the actual height of the element when the user collapses it (isOpen === false)
     maxHeight: maxHeight === 'none' && !isOpen ? ref.current?.clientHeight : maxHeight,

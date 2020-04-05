@@ -13,18 +13,45 @@ npm install --save react-collapse-simple
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import MyComponent from 'react-collapse-simple'
-import 'react-collapse-simple/dist/index.css'
+import ReactCollapseSimple from 'react-collapse-simple';
+import 'react-collapse-simple/dist/index.css';
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+function Example() {
+  return (
+    <>
+      <button type="button" onClick={() => setIsOpen(!isOpen)}>
+        Open/close
+      </button>
+      <ReactCollapseSimple isOpen={isOpen}>
+        <div>
+          <h3>Lorem ipsum dolor sit amet consetetur sadipscing elitr</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+            eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+            takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+            ipsum dolor sit amet.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+            eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+            takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+            ipsum dolor sit amet.
+          </p>
+        </div>
+      </ReactCollapseSimple>
+    </>
+  );
 }
 ```
 
-## License
-
-MIT © [lassegit](https://github.com/lassegit)
+Alternatively you can also just copy/paste the component and keep it in your own project. The source file is in `src/index.tsx`.

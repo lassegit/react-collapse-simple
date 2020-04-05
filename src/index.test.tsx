@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { ReactCollapseSimple } from './index';
 
-describe('ExampleComponent', () => {
+describe('ReactCollapseSimple', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+    expect(ReactCollapseSimple).toBeTruthy();
+  });
+});
