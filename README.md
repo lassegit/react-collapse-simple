@@ -16,7 +16,6 @@ npm install --save react-collapse-simple
 import React, { Component } from 'react';
 
 import ReactCollapseSimple from 'react-collapse-simple';
-import 'react-collapse-simple/dist/index.css';
 
 function Example() {
   return (
